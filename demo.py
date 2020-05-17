@@ -9,7 +9,9 @@ def sshahrzads_discretization_function(a, b, c):
     #       ax^2 + bx + c for the interval x=[-10, 10]
     values = []
     
-    # INSERT YOUR CODE HERE
+    for x in range(-10, 10, 1):
+        y = a*x**2 + b*x + c # INSERT YOUR CODE HERE
+        values.append(y)
 
     return values
 
